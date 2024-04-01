@@ -1,0 +1,340 @@
+/* index.html */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('gambar produk/bg.jpg'); 
+    color: black;
+}
+
+header {
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a:hover {
+    color: green; /* Warna saat dihover */
+}
+
+nav ul li a:active {
+    transform: translateY(2px); /* Efek pergeseran ke bawah saat tautan ditekan */
+    box-shadow: 0 2px 4px white (0, 0, 0, 0.3); /* Efek bayangan saat tautan ditekan */
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+footer {
+    
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+
+    section h2 {
+        font-size: 20px;
+    }
+
+    section p {
+        font-size: 14px;
+    }
+    /* //pesan.php// */
+}
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #008080;
+            color: #fff;
+            padding: 10px 20px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .form-container {
+            background-color: #f4f4f4;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="number"],
+        textarea {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        button[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        /* //galeri// */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+            font-family: sans-serif;
+            font-size: xx-large;
+        }
+        p {
+            text-align: center;
+            font-size: x-large;
+            font-family: sans-serif;
+        }
+        
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            grid-gap: 20px;
+            padding: 20px;
+        }
+        
+        .gallery-item {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        .gallery-item img {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        .gallery-item p {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+        
+    /* guetbook */
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+    
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+    }
+    
+    h1 {
+        margin: 0;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    nav ul li {
+        display: inline;
+        margin-right: 20px;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    main {
+        padding: 20px;
+    }
+    
+    section {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+    }
+    
+    h2 {
+        color: #333;
+    }
+    
+    form label {
+        color: #333;
+        font-weight: bold;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: calc(100% - 20px);
+        padding: 10px;
+        margin: 5px 0 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    
+    textarea {
+        height: 100px;
+    }
+    
+    input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s ease;
+    }
+    
+    input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+    
+    hr {
+        border: 0;
+        border-top: 1px solid #ccc;
+        margin: 20px 0;
+    }
+    /* produk */
+   
+.product {
+    clear: both;
+    overflow: hidden;
+    margin-bottom: 30px; /* Meningkatkan jarak antara produk */
+    border-radius: 10px; /* Memberikan sudut yang lebih lembut pada produk */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Efek bayangan untuk membuat produk terlihat lebih menonjol */
+    background-color: #f9f9f9; /* Warna latar belakang yang lebih lembut */
+    padding: 20px; /* Padding untuk memberikan ruang ekstra di dalam produk */
+}
+
+
+.product img {
+    float: right;
+    width: 50%; /* Mengurangi lebar gambar menjadi setengah dari lebar produk */
+    height: auto; /* Mengikuti proporsi asli gambar */
+    border-radius: 8px; /* Memberikan sudut yang lebih lembut pada gambar */
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); /* Efek bayangan yang lebih ringan */
+    transition: transform 0.3s ease; /* Efek transisi saat gambar dihover */
+}
+
+.product img:hover {
+    transform: scale(1.05); /* Memperbesar gambar sedikit saat dihover */
+}
+
+.product .content {
+    overflow: hidden;
+    text-align: justy; /* Mengatur teks agar rata kanan kiri */
+    font-size: 16px; /* Ukuran teks yang lebih besar */
+    line-height: 1.6; /* Jarak antara baris yang lebih lega */
+    color: black; /* Warna teks yang lebih gelap */
+}
+
+.product h2:hover {
+    color: #ff4500; /* Warna judul berubah saat dihover */
+} 
